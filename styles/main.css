@@ -1,0 +1,44 @@
+.googlelogo {
+    width: 272px;
+    margin: 0 auto;
+    position: relative;
+    top: 198px;
+}
+
+.searchbarcontainer {
+    width: 700px;
+    margin: 0 auto;
+    position: relative;
+    top: 235px;
+}
+
+.searchbar {
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#searchinputform {
+    width: 470px;
+    border-color: transparent;
+}
+
+#searchinputform:focus {
+    outline: none;
+}
+
+#searchlogo {
+    width: 15px;
+    position: relative;
+    top: 1px;
+    right: 17px;
+    opacity: 0.5;
+}
+
+#miclogo {
+    width: 24px;
+    position: relative;
+    bottom: 2px;
+    left: 16px;
+}
