@@ -1,27 +1,41 @@
+body {
+    font-family: arial,sans-serif;
+}
+
 .googlelogo {
     width: 272px;
     margin: 0 auto;
     position: relative;
-    top: 198px;
+    top: 139px;
 }
 
 .searchbarcontainer {
     width: 700px;
     margin: 0 auto;
     position: relative;
-    top: 235px;
+    top: 163px;;
 }
 
 .searchbar {
-    width: auto;
+    width: 582px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+}
+
+.searchbar:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
 }
 
 #searchinputform {
     width: 470px;
     border-color: transparent;
+    font-size: 16px;
 }
 
 #searchinputform:focus {
@@ -39,6 +53,107 @@
 #miclogo {
     width: 24px;
     position: relative;
-    bottom: 2px;
     left: 16px;
+}
+
+.searchbuttons {
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+    text-align: -webkit-center;
+    justify-content: center;
+    position: relative;
+    top: 193px;
+    right: 3px;
+}
+
+.button {
+    font-size: 14px;
+    text-align: center;
+    background-color: #f2f2f2;
+    margin: 0 4px;
+    color: #5F6368;
+    width: 108.5;
+    height: 36px;
+    padding: 0px 16px;
+    border-color: transparent;
+    border-radius: 4px;
+}
+
+.button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color:#222;
+}
+
+.navbar {
+    margin: 12px 10px;
+}
+
+.navbar-list {
+    display: grid;
+    grid-template-columns: 50px 50px auto 50px 50px 50px 50px;
+    align-items: center;
+}
+
+.profilepic {
+    border-radius: 15px;
+    position: relative;
+    top: 2px;
+}
+
+.menu {
+    width: 22px;
+    position: relative;
+    top: 4px;
+    left: 10px;
+
+}
+
+.navlink {
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.navlink:hover {
+    text-decoration: underline;
+}
+
+.navlink-left {
+    padding-left: 15px;
+}
+
+.footer {
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer-list {
+    display: grid;
+    grid-template-columns: 100px 90px 150px auto 70px 70px 70px;
+    background-color: #f2f2f2;
+    line-height: 40px;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.footerlink {
+    color: #5f6368;
+    padding-left: 27px;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.footerlink:hover {
+    text-decoration: underline;
+}
+
+.footerlink-right {
+    padding-left: 0px;
+
 }
